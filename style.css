@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.hero {
+    background-image: url(assets/voyage-islande.png); height: 600px;
+    background-position: center;
+    color: #ededec;
+    padding-left: 900px;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+h1 {
+    padding-top: 200px;
+}
