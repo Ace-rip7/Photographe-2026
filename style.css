@@ -50,15 +50,56 @@ h1 {
     margin: auto;
 }
 
+.half-width {
+    width: 50%;
+}
+
 .carte-service {
     width: 400px;
-    border: 1px solid red;
+    border: 1px solid rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228);
     img{
         width: 100%;
+    }
+    h3{
+        text-align: center;
     }
 }
 
 .flex {
     display: flex;
     gap: 24px;
+}
+
+#service h2 {
+    text-align: center;
+}
+
+.liste {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    img {
+        width: 300px;
+    }
+    ul {
+        width: 300px;
+        li {
+            margin-top: 16px;
+        }
+    }
+}
+
+.approche {
+    h2,h3 {
+        text-align: center;
+    }
+}
+
+.text {
+    padding-top: 80px;
+}
+
+.p-top {
+    padding-top: 50px;
 }
