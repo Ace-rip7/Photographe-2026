@@ -9,7 +9,7 @@ header {
     background-image: url(assets/voyage-islande.png); height: 600px;
     background-position: center;
     color: #ededec;
-    padding-left: 900px;
+    padding-left: 870px;
 }
 
 body {
@@ -24,4 +24,41 @@ nav {
 
 h1 {
     padding-top: 200px;
+}
+
+.realisations {
+    color: #ededec;
+    text-decoration: none;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+.reservation {
+    color: black;
+    background-color: #ededec;
+    text-decoration: none;
+    border: solid 2px #ededec;
+    border-radius: 10px;
+}
+
+.hero a {
+    padding: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carte-service {
+    width: 400px;
+    border: 1px solid red;
+    img{
+        width: 100%;
+    }
+}
+
+.flex {
+    display: flex;
+    gap: 24px;
 }
